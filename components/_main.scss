@@ -1,0 +1,68 @@
+
+ 
+ 
+ .logo {
+     width: 130px;
+     cursor: pointer;
+ }
+ .container-c{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.8) 0px 0px 50px;
+    border-radius: 10px;
+}
+
+input, textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    width: 80%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+input:focus, textarea:focus{
+    border-bottom-color: #610061 ;
+}
+
+
+.boton{
+    border: none;
+    outline: none;
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgb(255, 17, 0)), color-stop(17%, rgb(224, 7, 7)), color-stop(58%, rgb(172, 33, 15)), color-stop(100%, rgb(34, 34, 34)));
+    padding: 15px;
+    width: 200px;
+    color: white;
+    border-radius: 2px;
+    box-shadow: rgba(0,0,0,0.7) 0px 0px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
+}
+
+
+
+   
+
